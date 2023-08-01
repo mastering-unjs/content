@@ -1,0 +1,17 @@
+name: Deploy Website
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - content/**/*
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: curl -X POST $DEPLOY_HOOK
+        env:
+          DEPLOY_HOOK: ${{ secrets.DEPLOY_HOOK }}
