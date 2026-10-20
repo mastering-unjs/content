@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   case-police:
-    specifier: ^0.6.1
-    version: 0.6.1
+    specifier: ^2.2.1
+    version: 2.2.1
   markdownlint-cli:
     specifier: ^0.35.0
     version: 0.35.0
@@ -69,8 +69,8 @@ packages:
       balanced-match: 1.0.2
     dev: true
 
-  /case-police@0.6.1:
-    resolution: {integrity: sha512-tOgkG3HhtzNVHU+HVHqbpVJ3CICPDihtlgoM2C4dx0RLeo6qcNVeBgiYJN5Bln+stxKrnKrw89CFgqYQDqwZQg==}
+  /case-police@2.2.1:
+    resolution: {integrity: sha512-EZlL1YgE36hPbgkbSh32RvfITFE1K/z6K6DHlLLUDq/QctI/jON/pTTIS4C4eqyaVn5pvG118HanhEFry420Ow==}
     hasBin: true
     dev: true
 

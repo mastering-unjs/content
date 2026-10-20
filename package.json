@@ -6,6 +6,6 @@
 	},
 	"devDependencies": {
 		"markdownlint-cli": "^0.35.0",
-		"case-police": "^0.6.1"
+		"case-police": "^2.2.1"
 	}
 }
